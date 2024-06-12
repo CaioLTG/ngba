@@ -83,18 +83,12 @@ p {
 
 .aside-left {
     margin-top: 0px;
-    margin-right: 10px;
+    margin-right: 0px;
     flex-basis: 50%;
     height: 67vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.aside-right {
-    margin-top: 0px;
-    margin-left: 10px;
-    flex-basis: 50%;
 }
 
 .left-imgs-section {
@@ -108,7 +102,6 @@ p {
 }
 
 .left-img:nth-child(1) {
-    background-color: none;
     background-image: url('./img/ct.jpg');
     background-position: center;
     background-size: cover;
@@ -116,7 +109,6 @@ p {
 }
 
 .left-img:nth-child(2) {
-    background-color: none;
     background-image: url('./img/ffvi.png');
     background-position: center;
     background-size: 250px;
@@ -124,8 +116,41 @@ p {
 }
 
 .left-img:nth-child(3) {
-    background-color: none;
     background-image: url('./img/ffvi2.jpg');
     background-position: center;
     background-size: cover;
+}
+
+/* Estilizando o right-aside */
+.aside-right {
+    margin-top: 0px;
+    margin-left: 0px;
+    flex-basis: 50%;
+}
+
+.search-bar {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.carrossel-desc {
+    margin-top: 5px;
+}
+
+.search-bar, .carrossel-desc {
+    text-align: center;
+}
+
+.carrossel-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrossel {
+    background-image: url('./img/ffvi2.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 60vh;
+    height: 30vh;
 }
