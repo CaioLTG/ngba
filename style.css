@@ -84,7 +84,7 @@ p {
 .aside-left {
     margin-top: 0px;
     margin-right: 0px;
-    flex-basis: 50%;
+    flex-basis: 40%;
     height: 67vh;
     display: flex;
     flex-direction: column;
@@ -125,7 +125,7 @@ p {
 .aside-right {
     margin-top: 0px;
     margin-left: 0px;
-    flex-basis: 50%;
+    flex-basis: 60%;
 }
 
 .search-bar {
