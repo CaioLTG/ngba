@@ -26,12 +26,16 @@ body {
     font-weight: normal;
     font-size: 2.5rem;
     color: #ecedee;
-    text-shadow: 1px 1px #2d2a4b;
+    text-shadow: 3px 3px #2d2a4b;
 }
 
 /* Zerando a margem pra fonte */
 h1, h2, h3, p, li {
     margin: 0px;
+}
+
+p {
+    font-size: 2rem;
 }
 
 .gui {
@@ -43,6 +47,8 @@ h1, h2, h3, p, li {
     padding: 20px;
     margin: 20px;
 }
+
+/* Toda essa parte é da main-header */
 
 .main-header {
     display: flex;
@@ -66,4 +72,60 @@ h1, h2, h3, p, li {
 
 .fa-discord {
     color: #ecedee;
+}
+
+/* Estilizando o left-aside */
+
+.main-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside-left {
+    margin-top: 0px;
+    margin-right: 10px;
+    flex-basis: 50%;
+    height: 67vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aside-right {
+    margin-top: 0px;
+    margin-left: 10px;
+    flex-basis: 50%;
+}
+
+.left-imgs-section {
+    display: flex;
+}
+
+.left-img {
+    margin: 0px;
+    width: 120px;
+    height: 100px;
+}
+
+.left-img:nth-child(1) {
+    background-color: none;
+    background-image: url('./img/ct.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.left-img:nth-child(2) {
+    background-color: none;
+    background-image: url('./img/ffvi.png');
+    background-position: center;
+    background-size: 250px;
+    margin-right: 20px;
+}
+
+.left-img:nth-child(3) {
+    background-color: none;
+    background-image: url('./img/ffvi2.jpg');
+    background-position: center;
+    background-size: cover;
 }
